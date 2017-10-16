@@ -1,0 +1,86 @@
+/* CSS for SVG-elements */
+
+#svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    display: inline-block;
+}
+#svg rect {
+    stroke-width: 3px;
+    stroke: #F00;
+    fill: rgba(255,255,255,0.3);
+}
+#svg rect.with_href {
+    fill: rgba(0,0,0,0.3);
+}
+.edit > #svg rect:hover {
+    fill: rgba(50,200,50,0.3);
+}
+#svg rect.active {
+    fill: rgba(0,0,0,0.5);
+}
+#svg circle {
+    stroke-width: 3px;
+    stroke: #0F0;
+    fill: rgba(255,255,255,0.3);
+}
+#svg circle.with_href {
+    fill: rgba(0,0,0,0.3);
+}
+.edit > #svg circle:hover {
+    fill: rgba(50,200,50,0.3);
+}
+#svg polyline, #svg polygon {
+    stroke-width: 3px;
+    stroke: #00F;
+    fill: rgba(255,255,255,0.3);
+}
+#svg polygon.with_href {
+    fill: rgba(0,0,0,0.3);
+}
+.edit > #svg polygon:hover {
+    fill: rgba(50,200,50,0.3);
+}
+#svg .selected {
+    fill: rgba(50,200,50,0.5) !important;
+}
+#svg rect.helper {
+    fill: #FFF;
+    stroke: #000;
+    stroke-width: 2px;
+}
+#svg rect.helper:hover {
+    fill: #F00; 
+}
+.edit > #svg rect, .edit > #svg circle, .edit > #svg polygon {
+    cursor: move;
+}
+.edit > #svg .pointer {
+    cursor: pointer;
+}
+.edit > #svg .e-resize {
+    cursor: e-resize;
+}
+.edit > #svg .ne-resize {
+    cursor: ne-resize;
+}
+.edit > #svg .nw-resize {
+    cursor: nw-resize;
+}
+.edit > #svg .n-resize {
+    cursor: n-resize;
+}
+.edit > #svg .se-resize {
+    cursor: se-resize;
+}
+.edit > #svg .sw-resize {
+    cursor: sw-resize;
+}
+.edit > #svg .s-resize {
+    cursor: s-resize;
+}
+.edit > #svg .w-resize {
+    cursor: w-resize;
+}

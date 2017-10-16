@@ -1,0 +1,38 @@
+{
+  "name": "imgmap",
+  "version": "0.0.4",
+  "description": "图片热链接地图绘制",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zanjs/imgmap.git"
+  },
+  "author": "Julian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zanjs/imgmap/issues"
+  },
+  "homepage": "https://github.com/zanjs/imgmap#readme",
+  "devDependencies": {
+    "babel-core": "^6.7.6",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-register": "^6.7.2",
+    "browser-sync": "^2.12.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-uglify": "^1.5.3"
+  },
+  "dependencies": {
+    "clipboard": "^1.5.10"
+  }
+}
