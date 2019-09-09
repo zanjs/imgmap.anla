@@ -1,5 +1,7 @@
 ## images maps draw
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zanjs/imgmap.anla.svg)](https://greenkeeper.io/)
+
 > 图片热链接地图绘制
 
 > EDM 神器
